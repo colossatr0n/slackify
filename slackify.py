@@ -15,7 +15,6 @@ def main():
     parser.add_argument('-c', '--channel', nargs=1, help='the Slack channel')
     parser.add_argument('-m', '--message', nargs=1, help='the slack message')
     parser.add_argument('-u', '--url', nargs=1, help='the slack url')
-    # parser.add_argument('-d', '--default', nargs=0, help='read channel and message from default plist.')
 
     args = parser.parse_args()
 
